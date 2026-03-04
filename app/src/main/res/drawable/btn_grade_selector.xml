@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/btn_grade_selector.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="#FF3333" />
+                    <stroke android:width="4dp" android:color="#FFFFFF" />
+                </shape>
+            </item>
+            <item android:top="4dp" android:left="4dp" android:right="4dp" android:bottom="4dp">
+                <shape android:shape="oval">
+                    <solid android:color="#FF1A1A" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <!-- Outer glow -->
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="#80CC0000" />
+                    <stroke android:width="6dp" android:color="#CC0000" />
+                </shape>
+            </item>
+            <!-- Main button -->
+            <item android:top="3dp" android:left="3dp" android:right="3dp" android:bottom="3dp">
+                <shape android:shape="oval">
+                    <solid android:color="#CC0000" />
+                    <stroke android:width="3dp" android:color="#FF4444" />
+                    <gradient
+                        android:angle="270"
+                        android:startColor="#FF2222"
+                        android:endColor="#880000"
+                        android:type="linear" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
