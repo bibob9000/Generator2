@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Грозный Препод</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">ВХОД ДЛЯ ИЗБРАННЫХ</string>
+    <string name="login_subtitle">Только достойные войдут в этот зал скорби</string>
+    <string name="login_hint">Введите ваше ФИО, если осмелитесь</string>
+    <string name="login_button">ВОЙТИ И КАРАТЬ</string>
+    <string name="login_error_impostor">🚫 Ты не тот, за кого себя выдаёшь, самозванец!</string>
+    <string name="login_error_empty">Пустое поле — как пустая голова студента. Заполни!</string>
+    <string name="login_error_almost">Почти... но нет. Иди учи матчасть.</string>
+
+    <!-- Main Screen -->
+    <string name="btn_give_grade">ПОСТАВИТЬ\nДВОЙКУ</string>
+    <string name="total_grades_label">ВСЕГО ДВОЕК ПОСТАВЛЕНО:</string>
+    <string name="stats_button">📊 СТАТИСТИКА ГЕНОЦИДА</string>
+    <string name="rank_label">ЗВАНИЕ:</string>
+    <string name="next_rank_label">До следующего звания:</string>
+
+    <!-- Grade messages (random) -->
+    <string-array name="grade_messages">
+        <item>💀 Ещё один студент познал тьму!</item>
+        <item>😈 Прекрасная двойка. Ты заслужил её.</item>
+        <item>🔥 Сессия стала немного страшнее!</item>
+        <item>☠️ Зачётка плачет кровавыми слезами!</item>
+        <item>⚡ Молния двоечника поразила цель!</item>
+        <item>🎯 Точно в яблочко. В яблочко-huяблочко!</item>
+        <item>🌑 Ещё одна душа в деканате!</item>
+        <item>📖 Книги не читал? Получи двойку!</item>
+        <item>💣 КА-БУУМ! Сессия взорвана!</item>
+        <item>👺 ХА-ХА-ХА! Пересдача тебя ждёт!</item>
+    </string-array>
+
+    <!-- Stats Screen -->
+    <string name="stats_title">📊 ЛЕТОПИСЬ ЗЛОДЕЯНИЙ</string>
+    <string name="stats_today">Сегодня</string>
+    <string name="stats_week">За неделю</string>
+    <string name="stats_month">За месяц</string>
+    <string name="stats_all_time">За всё время</string>
+    <string name="stats_record">🏆 Рекорд за день:</string>
+    <string name="back_button">← НАЗАД К КАРАТЕЛЬНЫМ ОПЕРАЦИЯМ</string>
+</resources>
