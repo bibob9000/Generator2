@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.GradeSimulator" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="Theme.Achievement.Transparent" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="TextStyle.Title" parent="">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:letterSpacing">0.15</item>
+    </style>
+
+    <style name="TextStyle.Counter" parent="">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">72sp</item>
+        <item name="android:shadowColor">#FF0000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">20</item>
+    </style>
+
+    <style name="TextStyle.RankBadge" parent="">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/colorGold</item>
+        <item name="android:background">@drawable/rank_badge_background</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="Widget.GradeButton" parent="">
+        <item name="android:background">@drawable/btn_grade_selector</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:elevation">12dp</item>
+    </style>
+
+</resources>
