@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace 'com.grader.simulator'
     compileSdk 34
 
     defaultConfig {
@@ -28,6 +29,8 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.7.0'
     implementation 'com.google.android.material:material:1.12.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0' // Если используете GridLayout
+    implementation 'androidx.cardview:cardview:1.0.0'
 
     // стата
     implementation 'androidx.room:room-runtime:2.6.1'
